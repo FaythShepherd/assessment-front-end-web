@@ -1,11 +1,15 @@
 body {
-  background: #ddd;
+		
+background-image: url("https://unsplash.com/collections/925558/sky");
+background-color: #cccccc;
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
 }
+
+p { font-family: 'WebFont', Arial, sans-serif; }
 
 nav {
 	border-bottom: 2px solid orange;
@@ -41,4 +45,13 @@ img {
 	width: 240px;
 	height: 42px;
 	background-color: yellow;
+}
+
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
 }
